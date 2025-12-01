@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Trabalhe Conosco — Freelancer Híbrido</title>
+<style>
+:root{--bg:#f6f8fb;--card:#fff;--accent:#06b6d4;--text:#111827;--muted:#59627a;--pad:18px;--radius:12px}
+body{margin:0;background:var(--bg);font-family:Inter,Arial;color:var(--text);-webkit-font-smoothing:antialiased}
+.container{max-width:900px;margin:40px auto;padding:18px}
+.header{display:flex;align-items:center;justify-content:space-between}
+.logo{background:linear-gradient(135deg,#06b6d4,#0284c7);width:52px;height:52px;border-radius:10px;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.card{background:var(--card);padding:var(--pad);border-radius:var(--radius);box-shadow:0 8px 30px rgba(2,6,23,0.04);border:1px solid #e8f6fb}
+h1{margin:6px 0 6px 0}
+p.lead{color:var(--muted)}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+@media (max-width:700px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div style="display:flex;align-items:center;gap:12px"><div class="logo">FH</div><div><strong>Freelancer Híbrido</strong><div style="font-size:13px;color:var(--muted)">SDR + Hunter • Home Office</div></div></div>
+      <a class="btn" href="#apply">Quero me inscrever</a>
+    </div>
+
+    <div class="card">
+      <h1>Ganhe operando clientes + comissões por indicar novos</h1>
+      <p class="lead">Trabalhe 100% de casa: parte fixa por operação + comissões por cada cliente que você trouxer.</p>
+
+      <div class="grid">
+        <div>
+          <h3>O que você faz</h3>
+          <ul>
+            <li>Operar contas de clientes (SDR)</li>
+            <li>Buscar e abrir portas com empresas (Hunter)</li>
+            <li>Receber fixo + comissões</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Benefícios</h3>
+          <ul>
+            <li>Treinamento gratuito</li>
+            <li>Ganhos recorrentes</li>
+            <li>Flexibilidade de horário</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top:12px">
+        <strong>Remuneração</strong>
+        <p style="color:var(--muted)">SDR: R$500–R$1.600/mês • comissões: 20–30% do 1º mês</p>
+      </div>
+
+      <hr style="border:0;height:1px;background:#e6f3f7;margin:12px 0">
+
+      <section id="apply">
+        <h3>Candidate-se agora</h3>
+        <p class="lead">Envie: <strong>Nome | Cidade | Disponibilidade | Experiência (se tiver)</strong></p>
+        <a class="btn" href="mailto:parcerias@flowdesk.digital?subject=Candidatura%20Freelancer%20Híbrido">Enviar candidatura</a>
+      </section>
+    </div>
+
+    <footer style="margin-top:16px;color:var(--muted);font-size:13px">© FlowDesk — Oportunidades para freelancers</footer>
+  </div>
+</body>
+</html>
